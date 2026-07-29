@@ -1,14 +1,11 @@
 {
-  "name": "ai-video-generator",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "videoappvibe",
+  "homepage": "https://importantwebinformation2-glitch.github.io/videoappvibe",
   "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   }
 }
